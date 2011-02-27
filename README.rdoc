@@ -2,6 +2,38 @@
 
 Put your stackoverflow flair on blog or wherever you want.
 
+== Usage
+
+	gem install stackoverflair
+	
+or add to Gemfile:
+
+	gem 'stackoverflair'
+	
+and 
+
+	bundle install
+	
+In your rails app config/application.rb:
+
+	Stackoverflair::defaults[:id] = "336626" 
+	Stackoverflair::defaults[:name] = "nash"
+	...
+	
+Options:
+
+		:id => "", # your id http://stackoverflow.com/users/336626/nash <-- here
+		:name => "", # your stackoverflow name
+		:theme => "default", # flair theme ("default", "dark", "hotdog")
+		:width => "208", # image width
+		:height => "58", # image height
+		:alt => false, # alt text
+		:title => false # title
+	
+Show the flair:
+
+	<% stackoverflow_flair %>
+
 == Contributing to stackoverflair
  
 * Check out the latest master to make sure the feature hasn't been implemented or the bug hasn't been fixed yet

@@ -5,10 +5,10 @@ module Stackoverflair
 	@defaults = {
 		:id => '',
 		:name => '',
-		:theme => :default,
+		:theme => 'default',
 		:width => "666",
 		:height => "58",
-		:alt => "fuck",
+		:alt => false,
 		:title => false
 	}
 	
