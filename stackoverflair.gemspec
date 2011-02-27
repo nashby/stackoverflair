@@ -9,8 +9,8 @@ Gem::Specification.new do |s|
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["nashby"]
-  s.date = %q{2011-02-27}
-  s.description = %q{put your stackoverflow flair where you want}
+  s.date = %q{2011-02-28}
+  s.description = %q{put your stackoverflow flair wherever you want}
   s.email = %q{younash@gmail.com}
   s.extra_rdoc_files = [
     "LICENSE.txt",
@@ -19,10 +19,14 @@ Gem::Specification.new do |s|
   s.files = [
     ".document",
     "Gemfile",
+    "Gemfile.lock",
     "LICENSE.txt",
     "README.rdoc",
     "Rakefile",
     "lib/stackoverflair.rb",
+    "lib/stackoverflair/flair.rb",
+    "lib/stackoverflair/view_helpers.rb",
+    "stackoverflair.gemspec",
     "test/helper.rb",
     "test/test_stackoverflair.rb"
   ]
@@ -30,7 +34,7 @@ Gem::Specification.new do |s|
   s.licenses = ["MIT"]
   s.require_paths = ["lib"]
   s.rubygems_version = %q{1.5.0}
-  s.summary = %q{put your stackoverflow flair where you want}
+  s.summary = %q{put your stackoverflow flair wherever you want}
   s.test_files = [
     "test/helper.rb",
     "test/test_stackoverflair.rb"

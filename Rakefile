@@ -15,8 +15,8 @@ Jeweler::Tasks.new do |gem|
   gem.homepage = "http://github.com/nashby/stackoverflair"
   gem.license = "MIT"
   gem.version = "0.1"
-  gem.summary = %Q{put your stackoverflow flair where you want}
-  gem.description = %Q{put your stackoverflow flair where you want}
+  gem.summary = %Q{put your stackoverflow flair wherever you want}
+  gem.description = %Q{put your stackoverflow flair wherever you want}
   gem.email = "younash@gmail.com"
   gem.authors = ["nashby"]
 end
