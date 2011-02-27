@@ -1,6 +1,6 @@
 = stackoverflair
 
-Description goes here.
+Put your stackoverflow flair on blog or wherever you want.
 
 == Contributing to stackoverflair
  
