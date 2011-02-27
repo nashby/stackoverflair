@@ -1,3 +1,3 @@
 def stackoverflow_flair
-	raw(Stackoverflair::Flair.put)
+	raw Stackoverflair::Flair.put
 end

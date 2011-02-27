@@ -3,10 +3,10 @@
 end
 module Stackoverflair
 	@defaults = {
-		:id => '',
-		:name => '',
-		:theme => 'default',
-		:width => "666",
+		:id => "",
+		:name => "",
+		:theme => "default",
+		:width => "208",
 		:height => "58",
 		:alt => false,
 		:title => false

@@ -6,11 +6,11 @@ module Stackoverflair
 		end
 		
 		def self.set_default_alt
-			Stackoverflair::defaults[:alt] ||= "profile for #{Stackoverflair::defaults[:name]} at Stack Overflow, Q&amp;A for professional and enthusiast programmers"
+			Stackoverflair::defaults[:alt] ||= "profile for #{Stackoverflair::defaults[:name]} at Stack Overflow, Q&amp;A for professional and enthusiast programmers "
 		end
 		
 		def self.set_default_title
-			Stackoverflair::defaults[:title] ||= "profile for #{Stackoverflair::defaults[:name]} at Stack Overflow, Q&amp;A for professional and enthusiast programmers"	
+			Stackoverflair::defaults[:title] ||= "profile for #{Stackoverflair::defaults[:name]} at Stack Overflow, Q&amp;A for professional and enthusiast programmers "	
 		end
 		
 	end

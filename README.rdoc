@@ -22,13 +22,13 @@ In your rails app config/application.rb:
 	
 Options:
 
-		:id => "", # your id http://stackoverflow.com/users/336626/nash <-- here
-		:name => "", # your stackoverflow name
-		:theme => "default", # flair theme ("default", "dark", "hotdog")
-		:width => "208", # image width
-		:height => "58", # image height
-		:alt => false, # alt text
-		:title => false # title
+	:id => "", # your id http://stackoverflow.com/users/336626/nash <-- here
+	:name => "", # your stackoverflow name
+	:theme => "default", # flair theme ("default", "dark", "hotdog")
+	:width => "208", # image width
+	:height => "58", # image height
+	:alt => false, # alt text
+	:title => false # title
 	
 Show the flair:
 
